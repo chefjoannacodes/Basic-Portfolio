@@ -5,11 +5,14 @@ body {
   font-size: 18px;
   color: #333333;
   line-height: 150%;
-  background: #efeee7;
+  background:#ffffff;
+  border-color:#dddddd;
 }
 
 header {
-  background: #d21034;
+  background: #4aaaa5;
+  color:#ffffff;
+  border-color: #cccccc;
 }
 
 h1 {
@@ -20,6 +23,10 @@ h1 {
   color: #eee;
   text-align: center;
   background: #333333;
+}
+
+p {
+  color:#777777;
 }
 
 h2 {
@@ -39,6 +46,7 @@ a {
 #contact-info,
 #bio-image {
   float: left;
+  margin-left: 20px;
 }
 
 #main-bio {
@@ -47,10 +55,17 @@ a {
 
 #contact-info {
   width: 30%;
+  float: right;
+  margin-right: 20px;
 }
 
 #bio-image {
   margin-right: 20px;
   width: 200px;
   height: 200px;
+}
+
+.footer {
+  background-color: #4aaaa5;
+  padding:30px;
 }
