@@ -4,12 +4,25 @@
   width: 100%;
   margin-top: 0;
   position: absolute;
-  border-bottom: 3px solid #dddddd;
-  border-top: none;
+  border-bottom: 3px solid #cccccc;
+  font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+#home {
+  color: #ffffff;
+  font-size: 42px;
+  text-decoration: none;
+  padding: 20px;
+  font-family: "Georgia", Times New Roman, Times, serif;
+  background-color: #4aaaa5;
+}
+
+#home a {
+  text-decoration: none;
+  color: white;
 }
 
 body {
-  clear:both;
   overflow: auto;
   margin-top: 0px;
   padding: 0px;
@@ -21,41 +34,38 @@ body {
   width: 100%;
   position: relative;
   background-image:url(assets/images/cork-wallet.png); 
-  background-color: white;
-}
-
-hr {
-  line-height: 5px;
-  color: #eee;
-  margin-right: 10px;
-  margin-left: 10px;
-  position: relative;
-  border: 2px solid #dddddd;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 header {
   background: #4aaaa5;
-  color:#ffffff;
+  color:white;
   border-color: #cccccc;
   margin-right: -200;
   margin: 50;
-  font-family: ;
+  padding: 8px;
+  width: 33%;
+  text-align: center;
+  height: 75px;
+  font-size: 26px;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.fixedWidth {
+  width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
   width:32%;
   overflow: hidden;
-  float: left;
   color:white;
+  text-decoration: none;
   margin-left: 0px;
   margin-top:10px;
   margin-bottom: 20px;
   margin-right: 90px;
   padding: 27px 16px;
-  font-size: 28px;
-  color: #eee;
+  font-size: 32px;
   text-align: center;
   background-color:#4aaaa5;
   font-family: Georgia, Times, Times New Roman, serif;
@@ -71,9 +81,7 @@ p {
 h2 {
   font-size: 24px;
   color:#4aaaa5;
-  clear:both;
   padding:18px 16px;
-  background-color: white;
   margin-left: 20px;
 }
  
@@ -86,34 +94,14 @@ h3 {
   float: left;
 }
 
-a {
-  color: gray;
-  text-decoration: none;
-}
-
-/*unvisited link */
-a:link {
-  text-decoration: none;
-}
-
-/*visited link */
-a:visited {
-  text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  text-decoration: underline;
-}
-
-/*selected link*/
-a:active {
-  text-decoration: underline;
-}
 
 .container {
   margin: 0 auto;
   width: 1024px;
+}
+
+.break {
+  clear:both;
 }
 
 #main-bio,
@@ -125,33 +113,48 @@ a:active {
 
 #main-bio {
   float: left;
-  width: 960px;
-  background-color: green;
+  width: 640px;
+  background-color: white;
   margin-top: 220px;
   padding: 10px;
   overflow: auto;
   position: relative;
   clear:both;
   border: 2px solid #dddddd;
+  box-sizing: border-box;
 }
 
-
-#tabcontent {
-  overflow: auto;
-  text-align: center;
-  padding: 2px;
-  color: gray;
-  float: left;
-  width:100px;
-  height: 75px;
+#menu-right {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  float: right;
   background-color: white;
-  margin-top: 12px;
-  margin-left: 50px;
-  display: inline-block;
-  transition: 0.3s;
-  font-size:14px;
-  position: relative;
-  border: none;
+  margin-top: -162px;
+ 
+}
+
+#menu-right ul {
+  margin: 30px 0px 0px 0px;
+  height: 82px;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+#menu li {
+  border-right: 2px solid #cccccc;
+  padding: 0px 10px 0px 10px;
+  float: right;
+}
+
+li a {
+  text-decoration: none;
+  color:#777777;
+}
+
+.verticalLine {
+  border-left: thin solid gray;
+  padding:9px;
+  height:12px;
+  margin-top: inherit;
 }
 
 .form {
@@ -167,63 +170,66 @@ a:active {
   margin-top: 10px;
 }
 
-aside {
+ul {
+  display: inline-block;
+  list-style-type: none;
+  background-color: white;
+}
+
+#table {
+  background-image:url(assets/images/cork-wallet.png); 
+}
+
+#table li {
+  height: 200px;
+  width: 200px;
+}
+#mySidenav {
   float: right;
   width: 270px;
-  background-color: blue;
-  margin-top: -360px;
-  margin-left: -100px;
-  padding: 10px;
+  background-color: white;
+  margin-top: -585px;
+  margin-left: 100px;
+  margin-bottom:100px;
+  padding: 2px;
   overflow: auto;
   position: relative;
-  clear:both;
   border: 2px solid #dddddd;
+  box-sizing: border-box;
+  
 }
 
-.image-icon {
-  display: inline-block;
-  width: 20%;
-  margin-top: 10px;
-  margin-right: 25px;
+#sidebox img{
+  float: left;
+  width: 70px;
+  margin: 10px 0px 30px 6px;
+  background-color: white;
 }
-
-.sidebox{
-  float: right;
-  clear: both;
-  overflow: auto;
-  height: 100px;
-  width:270px;
-  margin-left: 100px;
-  background-color: red;
+#sidebox {
+  margin: 0px 0px 0px 12px;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
 }
 
 
 #bio-image {
   margin-right: 20px;
   width: 200px;
-  height: 200px;
+  height: 230px;
+}
+.break {
+  height:30px;
 }
 
-.footer {
-  background-color: #4aaaa5;
-  padding:10px;
-  clear:both;
-  position: fixed;
-  left:0px;
-  bottom:0px;
-  height:85px;
-  width:100%;
-}
-.footer2 {
-  clear:both;
-  padding:30px;
+footer {
   background-color: gray;
   color:#eee;
   text-align: center;
-  overflow: hidden;
-  position: fixed;
+  position: static;
+  padding:19px;
   left:0px;
   bottom:0px;
-  height:30px;
+  height:60px;
   width:100%;
+  border-top: 4px solid #4aaaa5;
 }
