@@ -1,56 +1,235 @@
+.top_header {
+  background-color: white;
+  height: 141px;
+  width: 100%;
+  margin-top: 0;
+  position: absolute;
+  border-bottom: 3px solid #cccccc;
+  font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+#home {
+  color: #ffffff;
+  font-size: 42px;
+  text-decoration: none;
+  padding: 20px;
+  font-family: "Georgia", Times New Roman, Times, serif;
+  background-color: #4aaaa5;
+}
+
+#home a {
+  text-decoration: none;
+  color: white;
+}
+
 body {
-  margin: 0;
-  padding: 0;
+  overflow: auto;
+  margin-top: 0px;
+  padding: 0px;
   font-family: "Georgia", Times New Roman, Times, serif;
   font-size: 18px;
   color: #333333;
   line-height: 150%;
-  background: #efeee7;
+  border-color:#dddddd;
+  width: 100%;
+  position: relative;
+  background-image:url(assets/images/cork-wallet.png); 
 }
 
 header {
-  background: #d21034;
+  background: #4aaaa5;
+  color:white;
+  border-color: #cccccc;
+  margin-right: -200;
+  margin: 50;
+  padding: 8px;
+  width: 33%;
+  text-align: center;
+  height: 75px;
+  font-size: 26px;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.fixedWidth {
+  width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
-  margin: 0;
+  width:32%;
+  overflow: hidden;
+  color:white;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-top:10px;
   margin-bottom: 20px;
-  padding: 20px 0;
-  font-size: 28px;
-  color: #eee;
+  margin-right: 90px;
+  padding: 27px 16px;
+  font-size: 32px;
   text-align: center;
-  background: #333333;
+  background-color:#4aaaa5;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+p {
+  color:#777777;
+  background-color: white;
+  font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
+  margin-left: 20px;
 }
 
 h2 {
   font-size: 24px;
+  color:#4aaaa5;
+  padding:18px 16px;
+  margin-left: 20px;
+}
+ 
+h3 {
+  overflow: auto;
+  clear: both;
+  padding: 1px;
+  background-color: white;
+  margin: 2px;
+  float: left;
 }
 
-a {
-  color: #d21034;
-}
 
 .container {
   margin: 0 auto;
   width: 1024px;
 }
 
+.break {
+  clear:both;
+}
+
 #main-bio,
-#contact-info,
 #bio-image {
   float: left;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 #main-bio {
-  width: 70%;
+  float: left;
+  width: 640px;
+  background-color: white;
+  margin-top: 220px;
+  padding: 10px;
+  overflow: auto;
+  position: relative;
+  clear:both;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
 }
 
-#contact-info {
-  width: 30%;
+#menu-right {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  float: right;
+  background-color: white;
+  margin-top: -162px;
+ 
 }
+
+#menu-right ul {
+  margin: 30px 0px 0px 0px;
+  height: 82px;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+#menu li {
+  border-right: 2px solid #cccccc;
+  padding: 0px 10px 0px 10px;
+  float: right;
+}
+
+li a {
+  text-decoration: none;
+  color:#777777;
+}
+
+.verticalLine {
+  border-left: thin solid gray;
+  padding:9px;
+  height:12px;
+  margin-top: inherit;
+}
+
+.form {
+  padding:10px;
+
+}
+
+#submit_button {
+  color: white;
+  background-color: #4aaaa5;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  background-color: white;
+}
+
+#table {
+  background-image:url(assets/images/cork-wallet.png); 
+}
+
+#table li {
+  height: 200px;
+  width: 200px;
+}
+#mySidenav {
+  float: right;
+  width: 270px;
+  background-color: white;
+  margin-top: -585px;
+  margin-left: 100px;
+  margin-bottom:100px;
+  padding: 2px;
+  overflow: auto;
+  position: relative;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  
+}
+
+#sidebox img{
+  float: left;
+  width: 70px;
+  margin: 10px 0px 30px 6px;
+  background-color: white;
+}
+#sidebox {
+  margin: 0px 0px 0px 12px;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
 
 #bio-image {
   margin-right: 20px;
   width: 200px;
-  height: 200px;
+  height: 230px;
+}
+.break {
+  height:30px;
+}
+
+footer {
+  background-color: gray;
+  color:#eee;
+  text-align: center;
+  position: static;
+  padding:19px;
+  left:0px;
+  bottom:0px;
+  height:60px;
+  width:100%;
+  border-top: 4px solid #4aaaa5;
 }
